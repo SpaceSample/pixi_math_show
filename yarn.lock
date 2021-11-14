@@ -23,6 +23,13 @@
   dependencies:
     "@babel/highlight" "^7.12.13"
 
+"@babel/code-frame@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.16.0.tgz#0dfc80309beec8411e65e706461c408b0bb9b431"
+  integrity sha1-DfyAMJvuyEEeZecGRhxAiwu5tDE=
+  dependencies:
+    "@babel/highlight" "^7.16.0"
+
 "@babel/compat-data@^7.12.1", "@babel/compat-data@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.13.tgz#27e19e0ed3726ccf54067ced4109501765e7e2e8"
@@ -80,12 +87,28 @@
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
+"@babel/generator@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/generator/download/@babel/generator-7.16.0.tgz#d40f3d1d5075e62d3500bccb67f3daa8a95265b2"
+  integrity sha1-1A89HVB15i01ALzLZ/PaqKlSZbI=
+  dependencies:
+    "@babel/types" "^7.16.0"
+    jsesc "^2.5.1"
+    source-map "^0.5.0"
+
 "@babel/helper-annotate-as-pure@^7.10.4", "@babel/helper-annotate-as-pure@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.12.13.tgz#0f58e86dfc4bb3b1fcd7db806570e177d439b6ab"
   integrity sha512-7YXfX5wQ5aYM/BOlbSccHDbuXXFPxeoUmfWtz8le2yTkTZc+BxsiEnENFoi2SlmA8ewDkG2LgIMIVzzn2h8kfw==
   dependencies:
     "@babel/types" "^7.12.13"
+
+"@babel/helper-annotate-as-pure@^7.15.4":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-annotate-as-pure/download/@babel/helper-annotate-as-pure-7.16.0.tgz?cache=0&sync_timestamp=1635560944976&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-annotate-as-pure%2Fdownload%2F%40babel%2Fhelper-annotate-as-pure-7.16.0.tgz#9a1f0ebcda53d9a2d00108c4ceace6a5d5f1f08d"
+  integrity sha1-mh8OvNpT2aLQAQjEzqzmpdXx8I0=
+  dependencies:
+    "@babel/types" "^7.16.0"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.12.13":
   version "7.12.13"
@@ -140,6 +163,15 @@
     "@babel/template" "^7.12.13"
     "@babel/types" "^7.12.13"
 
+"@babel/helper-function-name@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-function-name/download/@babel/helper-function-name-7.16.0.tgz?cache=0&sync_timestamp=1635560944177&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-function-name%2Fdownload%2F%40babel%2Fhelper-function-name-7.16.0.tgz#b7dd0797d00bbfee4f07e9c4ea5b0e30c8bb1481"
+  integrity sha1-t90Hl9ALv+5PB+nE6lsOMMi7FIE=
+  dependencies:
+    "@babel/helper-get-function-arity" "^7.16.0"
+    "@babel/template" "^7.16.0"
+    "@babel/types" "^7.16.0"
+
 "@babel/helper-get-function-arity@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.12.13.tgz#bc63451d403a3b3082b97e1d8b3fe5bd4091e583"
@@ -147,12 +179,26 @@
   dependencies:
     "@babel/types" "^7.12.13"
 
+"@babel/helper-get-function-arity@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.16.0.tgz?cache=0&sync_timestamp=1635560945700&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-get-function-arity%2Fdownload%2F%40babel%2Fhelper-get-function-arity-7.16.0.tgz#0088c7486b29a9cb5d948b1a1de46db66e089cfa"
+  integrity sha1-AIjHSGspqctdlIsaHeRttm4InPo=
+  dependencies:
+    "@babel/types" "^7.16.0"
+
 "@babel/helper-hoist-variables@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/helper-hoist-variables/-/helper-hoist-variables-7.12.13.tgz#13aba58b7480b502362316ea02f52cca0e9796cd"
   integrity sha512-KSC5XSj5HreRhYQtZ3cnSnQwDzgnbdUDEFsxkN0m6Q3WrCRt72xrnZ8+h+pX7YxM7hr87zIO3a/v5p/H3TrnVw==
   dependencies:
     "@babel/types" "^7.12.13"
+
+"@babel/helper-hoist-variables@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-hoist-variables/download/@babel/helper-hoist-variables-7.16.0.tgz?cache=0&sync_timestamp=1635560943828&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-hoist-variables%2Fdownload%2F%40babel%2Fhelper-hoist-variables-7.16.0.tgz#4c9023c2f1def7e28ff46fc1dbcd36a39beaa81a"
+  integrity sha1-TJAjwvHe9+KP9G/B2802o5vqqBo=
+  dependencies:
+    "@babel/types" "^7.16.0"
 
 "@babel/helper-member-expression-to-functions@^7.12.13", "@babel/helper-member-expression-to-functions@^7.12.17":
   version "7.12.17"
@@ -167,6 +213,13 @@
   integrity sha512-NGmfvRp9Rqxy0uHSSVP+SRIW1q31a7Ji10cLBcqSDUngGentY4FRiHOFZFE1CLU5eiL0oE8reH7Tg1y99TDM/g==
   dependencies:
     "@babel/types" "^7.12.13"
+
+"@babel/helper-module-imports@^7.15.4":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-module-imports/download/@babel/helper-module-imports-7.16.0.tgz?cache=0&sync_timestamp=1635560941965&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-module-imports%2Fdownload%2F%40babel%2Fhelper-module-imports-7.16.0.tgz#90538e60b672ecf1b448f5f4f5433d37e79a3ec3"
+  integrity sha1-kFOOYLZy7PG0SPX09UM9N+eaPsM=
+  dependencies:
+    "@babel/types" "^7.16.0"
 
 "@babel/helper-module-transforms@^7.12.1", "@babel/helper-module-transforms@^7.12.13", "@babel/helper-module-transforms@^7.12.17":
   version "7.12.17"
@@ -235,10 +288,22 @@
   dependencies:
     "@babel/types" "^7.12.13"
 
+"@babel/helper-split-export-declaration@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.16.0.tgz?cache=0&sync_timestamp=1635560943488&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-split-export-declaration%2Fdownload%2F%40babel%2Fhelper-split-export-declaration-7.16.0.tgz#29672f43663e936df370aaeb22beddb3baec7438"
+  integrity sha1-KWcvQ2Y+k23zcKrrIr7ds7rsdDg=
+  dependencies:
+    "@babel/types" "^7.16.0"
+
 "@babel/helper-validator-identifier@^7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.12.11.tgz#c9a1f021917dcb5ccf0d4e453e399022981fc9ed"
   integrity sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
+
+"@babel/helper-validator-identifier@^7.15.7":
+  version "7.15.7"
+  resolved "https://registry.nlark.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.15.7.tgz?cache=0&sync_timestamp=1631920000984&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-validator-identifier%2Fdownload%2F%40babel%2Fhelper-validator-identifier-7.15.7.tgz#220df993bfe904a4a6b02ab4f3385a5ebf6e2389"
+  integrity sha1-Ig35k7/pBKSmsCq08zhaXr9uI4k=
 
 "@babel/helper-validator-option@^7.12.1", "@babel/helper-validator-option@^7.12.17":
   version "7.12.17"
@@ -273,10 +338,24 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@babel/highlight@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/highlight/download/@babel/highlight-7.16.0.tgz?cache=0&sync_timestamp=1635560845502&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhighlight%2Fdownload%2F%40babel%2Fhighlight-7.16.0.tgz#6ceb32b2ca4b8f5f361fb7fd821e3fddf4a1725a"
+  integrity sha1-bOsysspLj182H7f9gh4/3fShclo=
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.15.7"
+    chalk "^2.0.0"
+    js-tokens "^4.0.0"
+
 "@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.12.17", "@babel/parser@^7.12.3", "@babel/parser@^7.7.0":
   version "7.12.17"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.17.tgz#bc85d2d47db38094e5bb268fc761716e7d693848"
   integrity sha512-r1yKkiUTYMQ8LiEI0UcQx5ETw5dpTLn9wijn9hk6KkTtOK95FndDN10M+8/s6k/Ymlbivw0Av9q4SlgF80PtHg==
+
+"@babel/parser@^7.16.0", "@babel/parser@^7.16.3":
+  version "7.16.3"
+  resolved "https://registry.npmmirror.com/@babel/parser/download/@babel/parser-7.16.3.tgz?cache=0&sync_timestamp=1636495066293&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.16.3.tgz#271bafcb811080905a119222edbc17909c82261d"
+  integrity sha512-dcNwU1O4sx57ClvLBVFbEgx0UZWfd0JQX5X6fxFRCLHelFBGXFfSz6Y0FAq2PEwUqlqLkdVjVr4VASEOuUnLJw==
 
 "@babel/plugin-proposal-async-generator-functions@^7.12.1", "@babel/plugin-proposal-async-generator-functions@^7.12.13":
   version "7.12.13"
@@ -1114,6 +1193,15 @@
     "@babel/parser" "^7.12.13"
     "@babel/types" "^7.12.13"
 
+"@babel/template@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/template/download/@babel/template-7.16.0.tgz#d16a35ebf4cd74e202083356fab21dd89363ddd6"
+  integrity sha1-0Wo16/TNdOICCDNW+rId2JNj3dY=
+  dependencies:
+    "@babel/code-frame" "^7.16.0"
+    "@babel/parser" "^7.16.0"
+    "@babel/types" "^7.16.0"
+
 "@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.13", "@babel/traverse@^7.12.17", "@babel/traverse@^7.7.0":
   version "7.12.17"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.12.17.tgz#40ec8c7ffb502c4e54c7f95492dc11b88d718619"
@@ -1129,6 +1217,21 @@
     globals "^11.1.0"
     lodash "^4.17.19"
 
+"@babel/traverse@^7.4.5":
+  version "7.16.3"
+  resolved "https://registry.npmmirror.com/@babel/traverse/download/@babel/traverse-7.16.3.tgz?cache=0&sync_timestamp=1636495060124&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Ftraverse%2Fdownload%2F%40babel%2Ftraverse-7.16.3.tgz#f63e8a938cc1b780f66d9ed3c54f532ca2d14787"
+  integrity sha512-eolumr1vVMjqevCpwVO99yN/LoGL0EyHiLO5I043aYQvwOJ9eR5UsZSClHVCzfhBduMAsSzgA/6AyqPjNayJag==
+  dependencies:
+    "@babel/code-frame" "^7.16.0"
+    "@babel/generator" "^7.16.0"
+    "@babel/helper-function-name" "^7.16.0"
+    "@babel/helper-hoist-variables" "^7.16.0"
+    "@babel/helper-split-export-declaration" "^7.16.0"
+    "@babel/parser" "^7.16.3"
+    "@babel/types" "^7.16.0"
+    debug "^4.1.0"
+    globals "^11.1.0"
+
 "@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.12.13", "@babel/types@^7.12.17", "@babel/types@^7.12.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
   version "7.12.17"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.17.tgz#9d711eb807e0934c90b8b1ca0eb1f7230d150963"
@@ -1136,6 +1239,14 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.12.11"
     lodash "^4.17.19"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.npmmirror.com/@babel/types/download/@babel/types-7.16.0.tgz?cache=0&sync_timestamp=1635560939610&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.16.0.tgz#db3b313804f96aadd0b776c4823e127ad67289ba"
+  integrity sha1-2zsxOAT5aq3Qt3bEgj4SetZyibo=
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
 "@bcoe/v8-coverage@^0.2.3":
@@ -1160,6 +1271,28 @@
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
+
+"@emotion/is-prop-valid@^0.8.8":
+  version "0.8.8"
+  resolved "https://registry.npmmirror.com/@emotion/is-prop-valid/download/@emotion/is-prop-valid-0.8.8.tgz?cache=0&sync_timestamp=1636873948233&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40emotion%2Fis-prop-valid%2Fdownload%2F%40emotion%2Fis-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha1-2yixxDaKJZtgqXMR1qlS1P0BrBo=
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@emotion/memoize/download/@emotion/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha1-Gb8PWvGRSREcQNmLsM+CEZ9dnus=
+
+"@emotion/stylis@^0.8.4":
+  version "0.8.5"
+  resolved "https://registry.npmmirror.com/@emotion/stylis/download/@emotion/stylis-0.8.5.tgz#deacb389bd6ee77d1e7fcaccce9e16c5c7e78e04"
+  integrity sha1-3qyzib1u530ef8rMzp4WxcfnjgQ=
+
+"@emotion/unitless@^0.7.4":
+  version "0.7.5"
+  resolved "https://registry.nlark.com/@emotion/unitless/download/@emotion/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha1-dyESkcGQCnALinjPr9oxYNdpSe0=
 
 "@eslint/eslintrc@^0.3.0":
   version "0.3.0"
@@ -1436,6 +1569,191 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@pixi/accessibility@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/accessibility/download/@pixi/accessibility-6.2.0.tgz#9124007d21907639769cbeb4bb6802ea768c31d5"
+  integrity sha1-kSQAfSGQdjl2nL60u2gC6naMMdU=
+
+"@pixi/app@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/app/download/@pixi/app-6.2.0.tgz#4da1b522e3a44bcc8d041a7c448a9dd98bb03452"
+  integrity sha1-TaG1IuOkS8yNBBp8RIqd2YuwNFI=
+
+"@pixi/compressed-textures@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/compressed-textures/download/@pixi/compressed-textures-6.2.0.tgz#5383090388ae795ae1ee803738b2435bb5ec860a"
+  integrity sha1-U4MJA4iueVrh7oA3OLJDW7Xshgo=
+
+"@pixi/constants@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/constants/download/@pixi/constants-6.2.0.tgz#14db64a7a697520d93236dc6ab2034fed218edbd"
+  integrity sha1-FNtkp6aXUg2TI23GqyA0/tIY7b0=
+
+"@pixi/core@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/core/download/@pixi/core-6.2.0.tgz#e1de45a6df0a9720cec484313a01619bcce67835"
+  integrity sha1-4d5Fpt8KlyDOxIQxOgFhm8zmeDU=
+
+"@pixi/display@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/display/download/@pixi/display-6.2.0.tgz#3a917dad5056b82dd25ba322f095d74af7c08fd0"
+  integrity sha1-OpF9rVBWuC3SW6Mi8JXXSvfAj9A=
+
+"@pixi/extract@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/extract/download/@pixi/extract-6.2.0.tgz#cc7f64379a59f8d27b0c5cfd04eaddefb74b109d"
+  integrity sha1-zH9kN5pZ+NJ7DFz9BOrd77dLEJ0=
+
+"@pixi/filter-alpha@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-alpha/download/@pixi/filter-alpha-6.2.0.tgz#8059d21f11ea08844adf638e15eac54792fa2650"
+  integrity sha1-gFnSHxHqCIRK32OOFerFR5L6JlA=
+
+"@pixi/filter-blur@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-blur/download/@pixi/filter-blur-6.2.0.tgz#aea5a704dcfb86214438371a0551faeae074734c"
+  integrity sha1-rqWnBNz7hiFEODcaBVH66uB0c0w=
+
+"@pixi/filter-color-matrix@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-color-matrix/download/@pixi/filter-color-matrix-6.2.0.tgz?cache=0&sync_timestamp=1636003514020&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Ffilter-color-matrix%2Fdownload%2F%40pixi%2Ffilter-color-matrix-6.2.0.tgz#a572e4f68655357242653cc28a255442e526d4a5"
+  integrity sha1-pXLk9oZVNXJCZTzCiiVUQuUm1KU=
+
+"@pixi/filter-displacement@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-displacement/download/@pixi/filter-displacement-6.2.0.tgz?cache=0&sync_timestamp=1636003514095&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Ffilter-displacement%2Fdownload%2F%40pixi%2Ffilter-displacement-6.2.0.tgz#e1b68c60eed8f67995aa428504b28bf7646f4a64"
+  integrity sha1-4baMYO7Y9nmVqkKFBLKL92RvSmQ=
+
+"@pixi/filter-fxaa@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-fxaa/download/@pixi/filter-fxaa-6.2.0.tgz?cache=0&sync_timestamp=1636003514191&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Ffilter-fxaa%2Fdownload%2F%40pixi%2Ffilter-fxaa-6.2.0.tgz#6fcf6ac4f6ab4a9e53bf3118880b4a703069d17a"
+  integrity sha1-b89qxParSp5TvzEYiAtKcDBp0Xo=
+
+"@pixi/filter-noise@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/filter-noise/download/@pixi/filter-noise-6.2.0.tgz?cache=0&sync_timestamp=1636003514215&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Ffilter-noise%2Fdownload%2F%40pixi%2Ffilter-noise-6.2.0.tgz#599119767e16ec9edc5c243734ff8c6c8646f7cf"
+  integrity sha1-WZEZdn4W7J7cXCQ3NP+MbIZG988=
+
+"@pixi/graphics@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/graphics/download/@pixi/graphics-6.2.0.tgz#5385c7f9d5b389cd943fb532551fd036af69d093"
+  integrity sha1-U4XH+dWzic2UP7UyVR/QNq9p0JM=
+
+"@pixi/interaction@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/interaction/download/@pixi/interaction-6.2.0.tgz#d9cbe9ba2bc52f68a37067b464fb35e0bf1a3f1f"
+  integrity sha1-2cvpuivFL2ijcGe0ZPs14L8aPx8=
+
+"@pixi/loaders@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/loaders/download/@pixi/loaders-6.2.0.tgz#3c21e838ee926464ef8db3adedd67c5c3801aba5"
+  integrity sha1-PCHoOO6SZGTvjbOt7dZ8XDgBq6U=
+
+"@pixi/math@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/math/download/@pixi/math-6.2.0.tgz?cache=0&sync_timestamp=1635905379347&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fmath%2Fdownload%2F%40pixi%2Fmath-6.2.0.tgz#bf9348da4ed98b0af364a986d0ef15b108bd38c5"
+  integrity sha1-v5NI2k7ZiwrzZKmG0O8VsQi9OMU=
+
+"@pixi/mesh-extras@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/mesh-extras/download/@pixi/mesh-extras-6.2.0.tgz?cache=0&sync_timestamp=1636003517794&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fmesh-extras%2Fdownload%2F%40pixi%2Fmesh-extras-6.2.0.tgz#ab8c0296f9200363283b1a35737ced4b5fec7f22"
+  integrity sha1-q4wClvkgA2MoOxo1c3ztS1/sfyI=
+
+"@pixi/mesh@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/mesh/download/@pixi/mesh-6.2.0.tgz#b6d5ad87fe7b3955e2474ffd5ff83b53283aa92e"
+  integrity sha1-ttWth/57OVXiR0/9X/g7Uyg6qS4=
+
+"@pixi/mixin-cache-as-bitmap@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/mixin-cache-as-bitmap/download/@pixi/mixin-cache-as-bitmap-6.2.0.tgz?cache=0&sync_timestamp=1636003514446&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fmixin-cache-as-bitmap%2Fdownload%2F%40pixi%2Fmixin-cache-as-bitmap-6.2.0.tgz#e5930e07f58af298bafe9303ad4841f7644bfa5b"
+  integrity sha1-5ZMOB/WK8pi6/pMDrUhB92RL+ls=
+
+"@pixi/mixin-get-child-by-name@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/mixin-get-child-by-name/download/@pixi/mixin-get-child-by-name-6.2.0.tgz?cache=0&sync_timestamp=1636003513939&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fmixin-get-child-by-name%2Fdownload%2F%40pixi%2Fmixin-get-child-by-name-6.2.0.tgz#a21aba8b840704e7c3febeaf11605d4ab094ecab"
+  integrity sha1-ohq6i4QHBOfD/r6vEWBdSrCU7Ks=
+
+"@pixi/mixin-get-global-position@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/mixin-get-global-position/download/@pixi/mixin-get-global-position-6.2.0.tgz?cache=0&sync_timestamp=1636003514435&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fmixin-get-global-position%2Fdownload%2F%40pixi%2Fmixin-get-global-position-6.2.0.tgz#99043ae64c0d7b5c9bb99efd2f9be4e7e10695d2"
+  integrity sha1-mQQ65kwNe1ybuZ79L5vk5+EGldI=
+
+"@pixi/particle-container@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/particle-container/download/@pixi/particle-container-6.2.0.tgz#c5d2168891c72f299268a5124d19c9e0d45c4575"
+  integrity sha1-xdIWiJHHLymSaKUSTRnJ4NRcRXU=
+
+"@pixi/polyfill@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/polyfill/download/@pixi/polyfill-6.2.0.tgz#135bd8d88a19b3e7272d395a938d2cf77ca17bc5"
+  integrity sha1-E1vY2IoZs+cnLTlak40s93yhe8U=
+  dependencies:
+    object-assign "^4.1.1"
+    promise-polyfill "^8.2.0"
+
+"@pixi/prepare@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/prepare/download/@pixi/prepare-6.2.0.tgz#0afd2d4f96d7864f11d749d6ffbc31ac83b2c68f"
+  integrity sha1-Cv0tT5bXhk8R10nW/7wxrIOyxo8=
+
+"@pixi/runner@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/runner/download/@pixi/runner-6.2.0.tgz?cache=0&sync_timestamp=1636003514580&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Frunner%2Fdownload%2F%40pixi%2Frunner-6.2.0.tgz#d784ec18d1dd11a364174f0eb293f5ab19597832"
+  integrity sha1-14TsGNHdEaNkF08OspP1qxlZeDI=
+
+"@pixi/settings@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/settings/download/@pixi/settings-6.2.0.tgz?cache=0&sync_timestamp=1635905380456&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fsettings%2Fdownload%2F%40pixi%2Fsettings-6.2.0.tgz#ae9b44a083e5b91f309ff582777cd42c4a25c99a"
+  integrity sha1-rptEoIPluR8wn/WCd3zULEolyZo=
+  dependencies:
+    ismobilejs "^1.1.0"
+
+"@pixi/sprite-animated@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/sprite-animated/download/@pixi/sprite-animated-6.2.0.tgz?cache=0&sync_timestamp=1636003514673&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fsprite-animated%2Fdownload%2F%40pixi%2Fsprite-animated-6.2.0.tgz#b33de80512b235f83bd824d3117e085ea5ab9bf7"
+  integrity sha1-sz3oBRKyNfg72CTTEX4IXqWrm/c=
+
+"@pixi/sprite-tiling@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/sprite-tiling/download/@pixi/sprite-tiling-6.2.0.tgz?cache=0&sync_timestamp=1636003514842&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Fsprite-tiling%2Fdownload%2F%40pixi%2Fsprite-tiling-6.2.0.tgz#9b92503e04e8a90d93bc1fb19dc9dad15901c073"
+  integrity sha1-m5JQPgToqQ2TvB+xncna0VkBwHM=
+
+"@pixi/sprite@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/sprite/download/@pixi/sprite-6.2.0.tgz#80f3ba3f0b714d0a13279fa4a204f957e57663b5"
+  integrity sha1-gPO6PwtxTQoTJ5+kogT5V+V2Y7U=
+
+"@pixi/spritesheet@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/spritesheet/download/@pixi/spritesheet-6.2.0.tgz#c435c0a1bbeb11dbcbe003d579a113087d76c2fa"
+  integrity sha1-xDXAobvrEdvL4APVeaETCH12wvo=
+
+"@pixi/text-bitmap@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/text-bitmap/download/@pixi/text-bitmap-6.2.0.tgz#0c410d4ad2a38af00fc404eab2508e801b985df3"
+  integrity sha1-DEENStKjivAPxATqslCOgBuYXfM=
+
+"@pixi/text@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/text/download/@pixi/text-6.2.0.tgz#eb0b25ccfedaf7e856cef6247647acaae79b924a"
+  integrity sha1-6wslzP7a9+hWzvYkdkesquebkko=
+
+"@pixi/ticker@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/ticker/download/@pixi/ticker-6.2.0.tgz#ec98ae2dccc27057ceca1656b00b17f90510a095"
+  integrity sha1-7JiuLczCcFfOyhZWsAsX+QUQoJU=
+
+"@pixi/utils@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/@pixi/utils/download/@pixi/utils-6.2.0.tgz?cache=0&sync_timestamp=1635905381190&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40pixi%2Futils%2Fdownload%2F%40pixi%2Futils-6.2.0.tgz#d79c361f34552a1f26657fc3bed5e5e2f79301b3"
+  integrity sha1-15w2HzRVKh8mZX/DvtXl4veTAbM=
+  dependencies:
+    "@types/earcut" "^2.1.0"
+    earcut "^2.2.2"
+    eventemitter3 "^3.1.0"
+    url "^0.11.0"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.4.3.tgz#1eec460596d200c0236bf195b078a5d1df89b766"
@@ -1688,6 +2006,11 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/earcut@^2.1.0":
+  version "2.1.1"
+  resolved "https://registry.nlark.com/@types/earcut/download/@types/earcut-2.1.1.tgz?cache=0&sync_timestamp=1629712345579&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fearcut%2Fdownload%2F%40types%2Fearcut-2.1.1.tgz#573a0af609f17005c751f6f4ffec49cfe358ea51"
+  integrity sha1-VzoK9gnxcAXHUfb0/+xJz+NY6lE=
+
 "@types/eslint@^7.2.6":
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.2.6.tgz#5e9aff555a975596c03a98b59ecd103decc70c3c"
@@ -1720,6 +2043,14 @@
   integrity sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==
   dependencies:
     "@types/node" "*"
+
+"@types/hoist-non-react-statics@*":
+  version "3.3.1"
+  resolved "https://registry.nlark.com/@types/hoist-non-react-statics/download/@types/hoist-non-react-statics-3.3.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fhoist-non-react-statics%2Fdownload%2F%40types%2Fhoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha1-ESSq/lEYy1kZd66xzqrtEHDrA58=
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
 
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.1"
@@ -1848,6 +2179,15 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
+
+"@types/styled-components@^5.1.15":
+  version "5.1.15"
+  resolved "https://registry.npmmirror.com/@types/styled-components/download/@types/styled-components-5.1.15.tgz#30855b40aa80b3b4e4c0e43a4af366e7c246d148"
+  integrity sha1-MIVbQKqAs7TkwOQ6SvNm58JG0Ug=
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    csstype "^3.0.2"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.6"
@@ -2652,6 +2992,21 @@ babel-plugin-named-asset-import@^0.3.7:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.7.tgz#156cd55d3f1228a5765774340937afc8398067dd"
   integrity sha512-squySRkf+6JGnvjoUtDEjSREJEBirnXi9NqP6rjSYsylxQxqBTz+pkmf395i9E2zsvmYUaI40BHo6SqZUdydlw==
 
+"babel-plugin-styled-components@>= 1.12.0":
+  version "1.13.3"
+  resolved "https://registry.npmmirror.com/babel-plugin-styled-components/download/babel-plugin-styled-components-1.13.3.tgz#1f1cb3927d4afa1e324695c78f690900e3d075bc"
+  integrity sha1-Hxyzkn1K+h4yRpXHj2kJAOPQdbw=
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.15.4"
+    "@babel/helper-module-imports" "^7.15.4"
+    babel-plugin-syntax-jsx "^6.18.0"
+    lodash "^4.17.11"
+
+babel-plugin-syntax-jsx@^6.18.0:
+  version "6.18.0"
+  resolved "https://registry.npm.taobao.org/babel-plugin-syntax-jsx/download/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
+  integrity sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
+
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
@@ -3127,6 +3482,11 @@ camelcase@^6.0.0, camelcase@^6.1.0, camelcase@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
+
+camelize@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/camelize/download/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
+  integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
 
 caniuse-api@^3.0.0:
   version "3.0.0"
@@ -3674,6 +4034,11 @@ css-blank-pseudo@^0.1.4:
   dependencies:
     postcss "^7.0.5"
 
+css-color-keywords@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/css-color-keywords/download/css-color-keywords-1.0.0.tgz#fea2616dc676b2962686b3af8dbdbe180b244e05"
+  integrity sha1-/qJhbcZ2spYmhrOvjb2+GAskTgU=
+
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
@@ -3734,6 +4099,15 @@ css-select@^2.0.0, css-select@^2.0.2:
     css-what "^3.2.1"
     domutils "^1.7.0"
     nth-check "^1.0.2"
+
+css-to-react-native@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/css-to-react-native/download/css-to-react-native-3.0.0.tgz#62dbe678072a824a689bcfee011fc96e02a7d756"
+  integrity sha1-YtvmeAcqgkpom8/uAR/JbgKn11Y=
+  dependencies:
+    camelize "^1.0.0"
+    css-color-keywords "^1.0.0"
+    postcss-value-parser "^4.0.2"
 
 css-tree@1.0.0-alpha.37:
   version "1.0.0-alpha.37"
@@ -4245,6 +4619,11 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+earcut@^2.2.2:
+  version "2.2.3"
+  resolved "https://registry.nlark.com/earcut/download/earcut-2.2.3.tgz#d44ced2ff5a18859568e327dd9c7d46b16f55cf4"
+  integrity sha1-1EztL/WhiFlWjjJ92cfUaxb1XPQ=
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -4721,6 +5100,11 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+
+eventemitter3@^3.1.0:
+  version "3.1.2"
+  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
+  integrity sha1-LT1I+cNGaY/Og6hdfWZOmFNd9uc=
 
 eventemitter3@^4.0.0:
   version "4.0.7"
@@ -5481,6 +5865,13 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
+  version "3.3.2"
+  resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
+
 hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
@@ -6160,6 +6551,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+
+ismobilejs@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/ismobilejs/download/ismobilejs-1.1.1.tgz#c56ca0ae8e52b24ca0f22ba5ef3215a2ddbbaa0e"
+  integrity sha1-xWygro5Sskyg8iul7zIVot27qg4=
 
 isobject@^2.0.0:
   version "2.1.0"
@@ -8039,6 +8435,47 @@ pirates@^4.0.1:
   dependencies:
     node-modules-regexp "^1.0.0"
 
+pixi.js@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/pixi.js/download/pixi.js-6.2.0.tgz#502f197f87e5f8675afd7da0ab70b27b6542171e"
+  integrity sha1-UC8Zf4fl+Gda/X2gq3Cye2VCFx4=
+  dependencies:
+    "@pixi/accessibility" "6.2.0"
+    "@pixi/app" "6.2.0"
+    "@pixi/compressed-textures" "6.2.0"
+    "@pixi/constants" "6.2.0"
+    "@pixi/core" "6.2.0"
+    "@pixi/display" "6.2.0"
+    "@pixi/extract" "6.2.0"
+    "@pixi/filter-alpha" "6.2.0"
+    "@pixi/filter-blur" "6.2.0"
+    "@pixi/filter-color-matrix" "6.2.0"
+    "@pixi/filter-displacement" "6.2.0"
+    "@pixi/filter-fxaa" "6.2.0"
+    "@pixi/filter-noise" "6.2.0"
+    "@pixi/graphics" "6.2.0"
+    "@pixi/interaction" "6.2.0"
+    "@pixi/loaders" "6.2.0"
+    "@pixi/math" "6.2.0"
+    "@pixi/mesh" "6.2.0"
+    "@pixi/mesh-extras" "6.2.0"
+    "@pixi/mixin-cache-as-bitmap" "6.2.0"
+    "@pixi/mixin-get-child-by-name" "6.2.0"
+    "@pixi/mixin-get-global-position" "6.2.0"
+    "@pixi/particle-container" "6.2.0"
+    "@pixi/polyfill" "6.2.0"
+    "@pixi/prepare" "6.2.0"
+    "@pixi/runner" "6.2.0"
+    "@pixi/settings" "6.2.0"
+    "@pixi/sprite" "6.2.0"
+    "@pixi/sprite-animated" "6.2.0"
+    "@pixi/sprite-tiling" "6.2.0"
+    "@pixi/spritesheet" "6.2.0"
+    "@pixi/text" "6.2.0"
+    "@pixi/text-bitmap" "6.2.0"
+    "@pixi/ticker" "6.2.0"
+    "@pixi/utils" "6.2.0"
+
 pkg-dir@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-2.0.0.tgz#f6d5d1109e19d63edf428e0bd57e12777615334b"
@@ -8827,6 +9264,11 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise-polyfill@^8.2.0:
+  version "8.2.1"
+  resolved "https://registry.npmmirror.com/promise-polyfill/download/promise-polyfill-8.2.1.tgz?cache=0&sync_timestamp=1635411947334&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpromise-polyfill%2Fdownload%2Fpromise-polyfill-8.2.1.tgz#1fa955b325bee4f6b8a4311e18148d4e5b46d254"
+  integrity sha1-H6lVsyW+5Pa4pDEeGBSNTltG0lQ=
+
 promise@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
@@ -9062,7 +9504,7 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
-react-is@^16.8.1:
+react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -9825,6 +10267,11 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -10328,6 +10775,22 @@ style-loader@1.3.0:
     loader-utils "^2.0.0"
     schema-utils "^2.7.0"
 
+styled-components@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.npmmirror.com/styled-components/download/styled-components-5.3.3.tgz#312a3d9a549f4708f0fb0edc829eb34bde032743"
+  integrity sha1-MSo9mlSfRwjw+w7cgp6zS94DJ0M=
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/traverse" "^7.4.5"
+    "@emotion/is-prop-valid" "^0.8.8"
+    "@emotion/stylis" "^0.8.4"
+    "@emotion/unitless" "^0.7.4"
+    babel-plugin-styled-components ">= 1.12.0"
+    css-to-react-native "^3.0.0"
+    hoist-non-react-statics "^3.0.0"
+    shallowequal "^1.1.0"
+    supports-color "^5.5.0"
+
 stylehacks@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.3.tgz#6718fcaf4d1e07d8a1318690881e8d96726a71d5"
@@ -10337,7 +10800,7 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-supports-color@^5.3.0:
+supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
