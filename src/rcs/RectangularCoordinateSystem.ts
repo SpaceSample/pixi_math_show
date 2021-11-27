@@ -1,19 +1,10 @@
 import { drawAxis } from './Axis';
-import { app } from './context';
-import { onResizeWindow } from './WindowResizer';
+import { ctx } from './context';
 
-const init = () => {
-  document.getElementById('canvasDiv')?.appendChild(app.view);
-  // app.renderer.backgroundColor = 0x061639;
-  // make it auto resize
-  window.addEventListener('resize', onResizeWindow);
-  onResizeWindow();
-  drawAxis();
+export const initRectangularCoordinateSystem = (targetCanvasId: string) => {
+  document.getElementById(targetCanvasId)?.appendChild(ctx.view);
+  setTimeout(() => {
+    ctx.scale = 1;
+    drawAxis();
+  }, 20);
 };
-
-
-
-init();
-
-
-export const getPixiApp = () => app;
